@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "2ce384fd-1932-4a0a-8bb9-babe5e3dae8a",
+		"name": "SpringBootInitialDemoGradle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "\"HELLO WORLD\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "\"Hello, <NOM>\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/?name=Patricia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Patricia"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
